@@ -2,7 +2,7 @@
 
 ## Clonar el repositorio: 
 El usuario debe clonar el repositorio que contiene el código de la página en su máquina local. 
-Puede hacerlo utilizando el comando git clone seguido de la URL del repositorio. Por ejemplo:
+Puede hacerlo utilizando el comando git clone seguido de la URL del repositorio (cmd, powershell, bash, etc). Por ejemplo:
 
 ```
 > git clone https://github.com/lucio-crDEV/Page-Uno.git
@@ -10,7 +10,7 @@ Puede hacerlo utilizando el comando git clone seguido de la URL del repositorio.
 
 ## Configurar el entorno virtual (opcional pero recomendado): 
 Se recomienda utilizar un entorno virtual para aislar las dependencias del proyecto. 
-El usuario puede crear y activar un entorno virtual con los siguientes comandos (se asume que Python ya está instalado en su máquina):
+El usuario puede crear y activar un entorno virtual con los siguientes comandos (se asume que Python ya está instalado en su máquina https://www.python.org/downloads/ ):
 
 ```
 > python -m venv myenv  # Crear el entorno virtual
