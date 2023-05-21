@@ -50,6 +50,7 @@ Finalmente, el usuario puede acceder al sitio en su localhost abriendo un navega
 
 Estos pasos deberían permitir que un usuario ejecute el sitio en su localhost. 
 Sin embargo, ten en cuenta que pueden surgir problemas o pasos adicionales dependiendo de la configuración específica del proyecto. Si encuentras algún error o necesitas más ayuda, proporciona más detalles sobre el problema y estaré encantado de ayudarte.
+https://github.com/lucio-crDEV/Page-Uno/issues
 
 
 
