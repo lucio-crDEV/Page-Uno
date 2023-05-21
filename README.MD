@@ -5,7 +5,6 @@ El usuario debe clonar el repositorio que contiene el código de la página en s
 Puede hacerlo utilizando el comando git clone seguido de la URL del repositorio. Por ejemplo:
 
 ```
-#bash
 > git clone <URL_del_repositorio>
 ```
 
@@ -14,7 +13,6 @@ Se recomienda utilizar un entorno virtual para aislar las dependencias del proye
 El usuario puede crear y activar un entorno virtual con los siguientes comandos (se asume que Python ya está instalado en su máquina):
 
 ```
-bash
 > python -m venv myenv  # Crear el entorno virtual
 > source myenv/bin/activate  # Activar el entorno virtual (Linux/Mac)
 >. myenv\Scripts\activate  # Activar el entorno virtual (Windows) 
@@ -24,7 +22,7 @@ bash
 Para hacerlo, puede ejecutar el siguiente comando en la raíz del proyecto (donde se encuentra el archivo requirements.txt):
 
 ```
-pip install -r requirements.txt
+> pip install -r requirements.txt
 ```
 
 
@@ -37,13 +35,13 @@ Asegúrate de tener una base de datos compatible instalada y actualiza la config
 Si hay migraciones pendientes, el usuario debe aplicarlas a la base de datos. Ejecuta el siguiente comando:
 
 ```
-python manage.py migrate
+> python manage.py migrate
 ```
 ## Iniciar el servidor de desarrollo: 
 Para ejecutar el servidor de desarrollo de Django, el usuario puede utilizar el siguiente comando:
 
 ```
-python manage.py runserver
+> python manage.py runserver
 ```
 
 # Acceder al sitio: 
