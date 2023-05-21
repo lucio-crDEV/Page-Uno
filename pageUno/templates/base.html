@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+    <script src="{% static 'efecto.js' %}"></script>
+  </head>
+
+  <body class="container bg-primary">
+    <div class="row mt-4">
+      <div class="col">
+        <h1
+          class="text-white text-center animate__animated animate__backInDown"
+        >
+          KE PAZA
+        </h1>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="row">
+      <div class="col-2">
+        <h1
+          class="text-white animate__animated animate__fadeInLeftBig animate__delay-1s"
+        >
+          Fran
+        </h1>
+      </div>
+      <div class="col-8">
+        <img
+          src="https://i.giphy.com/media/lngCJXNEQaBfLlEdsC/giphy.webp"
+          class="rounded mx-auto d-block animate__animated animate__fadeIn animate__slower animate__delay-1s"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="col-2 float-right">
+        <p
+          class="h2 text-white animate__animated animate__fadeInRightBig animate__delay-2s"
+        >
+          Te echamos <br />de menos 💖
+        </p>
+        <img
+          src="https://i.giphy.com/media/puPUC8iUM6HBKntUrs/giphy.webp"
+          class="rounded mx-auto d-block animate__animated animate__fadeIn animate__slower animate__delay-3s img-fluid"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <br /><br /><br />
+    <div class="row mt-4">
+      <div class="col">
+        <h1
+          class="text-white text-center animate__animated animate__bounceInUp animate__delay-3s animate__slower"
+        >
+          VUELVE
+        </h1>
+      </div>
+    </div>
+  </body>
+</html>
