@@ -5,7 +5,7 @@ El usuario debe clonar el repositorio que contiene el código de la página en s
 Puede hacerlo utilizando el comando git clone seguido de la URL del repositorio. Por ejemplo:
 
 ```
-> git clone <URL_del_repositorio>
+> git clone https://github.com/lucio-crDEV/Page-Uno.git
 ```
 
 ## Configurar el entorno virtual (opcional pero recomendado): 
